@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=PT+Serif:ital@1&family=Roboto+Slab:wght@300&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'Lora', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 65px;
+}
+.container{
+    min-height:72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lora', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    display:flex;
+    width:70%;
+    margin:23px auto;
+    border-radius: 12px;
+    padding:32px;
+    background-image: url("bg.jpg");
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+}
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    bottom: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    cursor: pointer;
+   
+}
+.icons{
+    margin: -10px;
+    padding: 11px;
+}
+#myProgressBar{
+    width: 80vw;
+    margin: 11px;
+    cursor: pointer;
+}
+.songItem{
+height:50px;
+display:flex;
+background-color:white;
+width:130%;
+color:black;
+justify-content:space-between;
+margin:12px 0;
+border-radius: 34px;
+align-items: center;
+}
+.songItem img{
+    width:43px;
+    margin: 0 23px;
+    padding: 6px;
+border-radius: 34px;
+}
+.timestamp {
+    margin:0 23px;
+    cursor:pointer;
+}
+.songItemContainer{
+    margin-top:76px;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+    bottom: 24px;
+}
+.songinfo img{
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+    font-family: 'Lora', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+}

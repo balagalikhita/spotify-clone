@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2178c80e46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="apotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Best of 2022</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Warriyo - Mortals</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Cielo - Huma-Huma</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">DEAF KEV - Invincible -320k</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Different Heaven & EH!DE - My Heart</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Janji-Heroes-Tonight-feat-Johnning</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Rabba - Salam-e-Ishq</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome-icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+            <div class="songinfo">
+                <img src="playing.gif" width="43px" alt="1" id="gif"><span id="masterSongName">Warriyo - Mortals</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
